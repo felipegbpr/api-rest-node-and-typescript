@@ -4,7 +4,7 @@
     "express": "^4.19.2",
     "http-status-codes": "^2.3.0",
     "yarn": "^1.22.22",
-    "yup": "^1.4.0"
+    "yup": "1.0.2"
   },
   "name": "api-rest-node-typescript",
   "version": "1.0.0",
