@@ -38,6 +38,6 @@
     "typescript-eslint": "^7.9.0"
   },
   "engines": {
-    "node": "16.x"
+    "node": "18.18.0"
   }
 }
