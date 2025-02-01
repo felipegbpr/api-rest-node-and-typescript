@@ -10,7 +10,7 @@ export const getAll = async (
   try {
     const result = await Knex(ETableNames.pessoa)
       .select('*')
-      .where('nomeCompleto', 'like', `%${filter}%`)
+      .where('nome', 'like', `%${filter}%`)
       .offset((page - 1) * limit)
       .limit(limit);
 
