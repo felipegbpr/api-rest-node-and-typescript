@@ -34,6 +34,7 @@ export const getAll = async (
     Number(req.query.id)
   );
   const count = await CidadesProvider.count(req.query.filter);
+
   if (result instanceof Error) {
     return res.status(StatusCodes.INTERNAL_SERVER_ERROR).json({
       errors: { default: result.message },
